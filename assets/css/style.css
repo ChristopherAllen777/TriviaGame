@@ -1,39 +1,41 @@
 body { /* Visual */
-  background: green;
+	background: url("https://emshosting.blob.core.windows.net/media/ProCarePhysicalTherapy/Blog-Posts/sports-balls.jpg");
 }
 .container {
 	width: 600px;
 	margin: auto;
-	background-color: grey;
+	padding: 20px;
+	background-color: lightgrey;
 	border-style: solid;
-    border-width: 5px;
-    border-color: red;
+    border-width: 20px;
+    border-color: orange;
     box-shadow: 10px 10px 5px #888;
 }
 h1 {
-	color: red;
+	color: white;
 	text-align: center;
-	padding: 20px;
+	font-family: "Futura";
+	font-size: 34pt;
 }
 h2 {
 	text-align: center;
 }
 h3 {
-	font-family:'Rokkitt', serif;
+	font-family:'Futura';
     text-align: center;
 }
 .countdown {
 	margin: auto;
 	margin-bottom: 20px;
     width: 60%;
-    border: 3px solid #73AD21;
+    border: 3px solid orange;
     padding: 10px;
 }
 ul {
     list-style: none;
 }
 li {
-    font-family:'Rokkitt', serif;
+    font-family:'Futura';
     font-size: 2em;
 }
 input[type=radio] {
@@ -42,22 +44,26 @@ input[type=radio] {
     height: 2em;
 }
 p {
-    font-family:'Rokkitt', serif;
+    font-family:'Futura';
+    font-size: 13pt;
+    color: grey;
 }
 .instructions {
 	text-align: center;
 }
 /* Quiz Classes */
  .quizContainer {
-    background-color: lightgoldenrodyellow;
+    background-color: white;
     border-radius: 6px;
     width: 75%;
     margin: auto;
     padding: 28px;
+    padding-right: 20px;
+    padding-right: 20px;
     padding-top: 10px;
-    -moz-box-shadow: 10px 10px 5px #888;
-    -webkit-box-shadow: 10px 10px 5px #888;
-    box-shadow: 10px 10px 5px #888;
+    -moz-box-shadow: 110px 10px 10px 10px black;
+    -webkit-box-shadow: 10px 10px 10px 10px black;
+    box-shadow: 10px 10px 10px 10px black;
     position: relative;
 }
 .nextButton {
@@ -68,14 +74,14 @@ p {
     text-align: center;
     background-color: lightgrey;
     /*clear: both;*/
-    color: red;
-    font-family:'Rokkitt', serif;
+    color: black;
+    font-family:'Futura';
     position: relative;
     margin: auto;
     padding-top: 20px;
 }
 .question {
-    font-family:'Rokkitt', serif;
+    font-family:'Futura';
     font-size: 2em;
     width: 90%;
     height: auto;
@@ -83,6 +89,7 @@ p {
     border-radius: 6px;
     background-color: lightgrey;
     text-align: center;
+    margin-top: 20px;
     padding: 12px;
 }
 .quizMessage {
@@ -90,14 +97,17 @@ p {
     border-radius: 6px;
     width: 30%;
     margin: auto;
+    margin-bottom: 10px;
     text-align: center;
     padding: 2px;
-    font-family:'Rokkitt', serif;
-    color: red;
+    font-family:'Futura';
+    color: black;
 }
 .choiceList {
-    font-family: Courier, serif;
-    color: blueviolet;
+    font-family: 'Futura';
+    color: orange;
+    text-align: center;
+    padding-right: 50px;
 }
 .result {
     width: 30%;
@@ -105,8 +115,9 @@ p {
     border-radius: 6px;
     background-color: linen;
     margin: auto;
+    margin-bottom: 10px;
     text-align: center;
-    font-family:'Rokkitt', serif;
+    font-family:'Futura';
 }
 
 }
