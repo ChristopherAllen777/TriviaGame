@@ -1,9 +1,8 @@
   //  Trivia Game Javascript 
-    //  Set our quiz time counter to 100.
+    //  Set our quiz time counter to 150.
     var number = 150;
 
     //  Variable that will hold our interval ID when we execute
-    //  the "run" function
     var intervalId;
 
     //  When the stop button gets clicked, run the stop function.
@@ -53,6 +52,8 @@
     //  Execute the run function.
     run();
 
+    // Code for the Trivia Game
+    // Start with variables 
     var questions = [{
     question: "In inches, how big is the diameter of a basketball hoop?",
     choices: ["19 inches", "18 inches", "20 inches", "21 inches"],
