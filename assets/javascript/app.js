@@ -1,5 +1,8 @@
   //  Trivia Game Javascript 
     //  Set our quiz time counter to 150.
+    
+
+
     var number = 150;
 
     //  Variable that will hold our interval ID when we execute
